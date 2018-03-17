@@ -9,16 +9,14 @@ After this, you should edit the `application.properties`. There you will find th
 
 Below, follows the sql.
 
-`
-CREATE TABLE `country` (
+`CREATE TABLE `country` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(200) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 `
 
-`
-CREATE TABLE `city` (
+`CREATE TABLE `city` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(200) NOT NULL DEFAULT '',
   `id_country` int(11) NOT NULL,
