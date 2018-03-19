@@ -1,4 +1,4 @@
-package processor;
+package br.com.cinq.processor;
 
 import br.com.cinq.exception.NotFoundException;
 import java.io.BufferedReader;

@@ -11,7 +11,7 @@ import java.util.Optional;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import org.springframework.stereotype.Service;
-import processor.StreamProcessorImpl;
+import br.com.cinq.processor.StreamProcessorImpl;
 import java.util.logging.Logger;
 import javax.transaction.Transactional;
 import org.apache.commons.lang.StringUtils;

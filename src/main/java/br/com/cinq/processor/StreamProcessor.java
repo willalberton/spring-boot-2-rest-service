@@ -1,4 +1,4 @@
-package processor;
+package br.com.cinq.processor;
 
 import java.io.InputStream;
 import java.util.List;
